@@ -1,0 +1,28 @@
+/**
+ * config
+ */
+
+
+var config = {
+  // debug 为 true 时，用于本地调试
+  debug: true,
+
+  // 邮箱配置
+  mail_opts: {
+    host: 'smtp.163.com',
+    port: 25,
+    auth: {
+      user: 'example@163.com',
+      pass: 'password'
+    },
+    ignoreTLS: true,
+  },
+  mail_to: 'mail_to@qq.com',
+  mails_to: ['item1_mailto@qq.com',
+    'item2_mailto@qq.com'
+  ],
+  subject: '这是主题',
+  content: '这是内容，安装步骤 1. 安装node 2.cd到目录下，运行npm install 3.运行 node mail.test.js \n其他说明: 邮件列表请配置mails_to, 163已测试ok',
+};
+
+module.exports = config;

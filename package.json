@@ -1,0 +1,33 @@
+{
+  "name": "mailerNorthMist",
+  "version": "1.0.0",
+  "description": "mailerNorthMist",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/no.git"
+  },
+  "keywords": [
+    "mail"
+  ],
+  "author": "cdyfng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/no/issues"
+  },
+  "homepage": "https://github.com/no#readme",
+  "dependencies": {
+    "ansicolor": "^1.1.68",
+    "async": "^1.5.2",
+    "bcryptjs": "^2.3.0",
+    "lodash": "^4.17.4",
+    "log4js": "^0.6.29",
+    "nodemailer": "^2.3.0",
+    "nodemailer-smtp-transport": "^2.4.0",
+    "ololog": "^1.0.62",
+    "request": "^2.81.0"
+  }
+}
